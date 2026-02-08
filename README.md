@@ -1,4 +1,4 @@
-# SpringWorks_Unity
-春休みに行ったことを記録することを目的したリポジトリですここではUnityを使った開発を記録します
+# SpringWorks
+春休みに行ったことを記録することを目的したリポジトリです
 
 ## [Unityで作成したshaderはこちら](./UnityShader.md)
