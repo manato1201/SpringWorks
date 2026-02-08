@@ -1,5 +1,7 @@
 # SpringWorks_Unity
 
+ここではUnityを使った開発を記録します
+
 Unityで作ったShaderを記載しています
 
 ### ジオメトリーシェーダーの作成（UnitShader）
