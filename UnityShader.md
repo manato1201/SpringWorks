@@ -39,3 +39,24 @@ Unityで作ったShaderを記載しています
 <img width="976" height="667" alt="2026-02-08_042726" src="https://github.com/user-attachments/assets/47083eff-29d8-4592-901c-7ecb783b634e" />
 
 <img width="1364" height="452" alt="2026-02-08_042738" src="https://github.com/user-attachments/assets/36caa9f8-0247-4f32-9f4d-e6155ad13524" />
+
+### 氷シェーダーの作成（ShaderGraph）
+<img width="760" height="538" alt="スクリーンショット 2026-02-11 224439" src="https://github.com/user-attachments/assets/ac7fd49e-d811-4c10-bb99-186283ff0d1d" />
+
+<img width="1477" height="613" alt="スクリーンショット 2026-02-11 224517" src="https://github.com/user-attachments/assets/b7f47cb3-f42c-473d-91fc-5d519f5561bf" />
+
+<img width="1577" height="885" alt="スクリーンショット 2026-02-11 233311" src="https://github.com/user-attachments/assets/f16ec297-550e-4fcf-8ba2-a728ea0bff53" />
+
+<img width="1461" height="873" alt="スクリーンショット 2026-02-11 233326" src="https://github.com/user-attachments/assets/56c7bc69-52de-4311-94b8-db616b4a14c8" />
+
+<img width="1545" height="843" alt="スクリーンショット 2026-02-11 233235" src="https://github.com/user-attachments/assets/a9dd525e-38b6-46de-aff6-7811efe50a2c" />
+
+<img width="1026" height="988" alt="スクリーンショット 2026-02-11 225131" src="https://github.com/user-attachments/assets/435d353f-c40d-4577-bbf4-5160ab710870" />
+
+### LCDScreenShaderの作成（ShaderGraph）
+![Videotogif (6)](https://github.com/user-attachments/assets/cfb7005a-4493-4739-bd71-2f18b6fc8180)
+
+<img width="1442" height="858" alt="スクリーンショット 2026-02-15 023113" src="https://github.com/user-attachments/assets/4f0cf225-cda1-4955-b59f-7353e0410746" />
+
+<img width="1333" height="848" alt="スクリーンショット 2026-02-15 023125" src="https://github.com/user-attachments/assets/3df9de56-8c48-4056-b789-fdb8815fe6f0" />
+
