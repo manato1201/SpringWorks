@@ -51,7 +51,6 @@ Unityで作ったShaderを記載しています
 
 <img width="1545" height="843" alt="スクリーンショット 2026-02-11 233235" src="https://github.com/user-attachments/assets/a9dd525e-38b6-46de-aff6-7811efe50a2c" />
 
-<img width="1026" height="988" alt="スクリーンショット 2026-02-11 225131" src="https://github.com/user-attachments/assets/435d353f-c40d-4577-bbf4-5160ab710870" />
 
 ### LCDScreenShaderの作成（ShaderGraph）
 ![Videotogif (6)](https://github.com/user-attachments/assets/cfb7005a-4493-4739-bd71-2f18b6fc8180)
