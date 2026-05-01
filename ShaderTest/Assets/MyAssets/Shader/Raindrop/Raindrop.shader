@@ -50,7 +50,6 @@
             };
 
             CBUFFER_START(UnityPerMaterial)
-                float4x4 _PrevInvMatrix;
                 float3   _TargetPosition;
                 float    _Range;
                 float    _RangeR;
@@ -64,7 +63,7 @@
                 float3 posOS = v.positionOS;
                 posOS.y += _MoveTotal;
 
-                float3 target = _TargetPosition; // C#でワールド渡しなら、OSに変換するか target をWSで合わせるのじゃ！
+                float3 target = _TargetPosition;
                 float3 trip = floor(((target - posOS) * _RangeR + 1) * 0.5);
                 trip *= (_Range * 2.0);
                 posOS += trip;
@@ -73,19 +72,10 @@
                 float4 headOS = float4(posOS, 1.0) * v.uv.x;
                 float4 tv0CS  = TransformObjectToHClip(headOS.xyz);
 
-                // trail（前フレームView相当）
+                // trail（カメラ方向に影響されない固定オフセット）
                 posOS.y -= _Move;
                 float4 trailOS = float4(posOS, 1.0) * v.uv.y;
-
-                // 現フレーム Object->View
-                float3 posWS = TransformObjectToWorld(trailOS.xyz);
-                float4 tv1VS = mul(GetWorldToViewMatrix(), float4(posWS, 1.0));
-
-                // 前フレーム系への変換（元の流れ：MV -> PrevInv -> P）
-                float4 tv1VS_prev = mul(_PrevInvMatrix, tv1VS);
-
-                // View -> Clip（HDRPのプロジェクション行列）
-                float4 tv1CS = mul(GetViewToHClipMatrix(), tv1VS_prev);
+                float4 tv1CS   = TransformObjectToHClip(trailOS.xyz);
 
                 Varyings o;
                 o.positionCS = tv0CS + tv1CS;
